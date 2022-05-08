@@ -133,7 +133,7 @@ const App = () => {
             <div className="button">
                 <button onClick={openModal} style={{ margin: '4px' }}>Create Inventory</button>
                 {showModal ? <Modal setShowModal={setShowModal} /> : null}
-                <button onClick={onRemoveSelected} style={{ margin: '4px' }}>Delete Selected Row</button>
+                {/*<button onClick={onRemoveSelected} style={{ margin: '4px' }}>Delete Selected Row</button>*/}
             </div>
             {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
             <div className="ag-theme-alpine" style={{width: 1600}}>

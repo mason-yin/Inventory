@@ -16,6 +16,6 @@ export const Modal = ({ setShowModal }) => {
                 <button onClick={() => setShowModal(false)}>X</button>
             </div>
         </div>,
-        document.getElementById("root")
+        document.getElementById("portal")
     );
 };
