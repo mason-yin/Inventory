@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect, useMemo, useCallback} from 'react';
-import { render } from 'react-dom';
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AgGridReact } from 'ag-grid-react'; // the AG Grid React Component
@@ -315,12 +314,12 @@ const App = () => {
     return (
         <div className="App">
             <h1>Welcome to Mason's Food Inventory System!</h1>
-            <h3>Instruction: </h3>
-            <h3>Click "Insert new item" button to insert a new item</h3>
-            <h3>Select a row then click "Delete Selected Row" button to delete that row</h3>
-            <h3>Double click a cell to edit its value</h3>
-            <h3>Use search to search for items</h3>
-            <h3>filter and sort enabled</h3>
+            <p>Instruction: </p>
+            <p>Click "Insert new item" button to insert a new item</p>
+            <p>Select a row then click "Delete Selected Row" button to delete that row</p>
+            <p>Double click a cell to edit its value</p>
+            <p>Use search to search for items</p>
+            <p>filter and sort enabled</p>
             <div className="button">
                 <Button variant="primary" onClick={handleShow} style={{margin: '10px'}}>
                     Insert new item
